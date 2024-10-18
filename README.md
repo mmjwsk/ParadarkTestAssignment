@@ -39,7 +39,7 @@ In order to demonstrate the damage interactions, target cubes have been placed o
 Adding a new type of target is even easier than adding a new type of damage - all it takes is creating a child BP from BP_BaseTarget and editing the values of DamageResistane within its DamageSystemComponent.
 
 ### Project organization
-I've made sure to keep my own code separate from the FPP template code, so there's no need of checking that code for anything added by me. The only changes there was making about 2 methods virtual in order to override them in children classes. The entirety of the C++ code created for this assignment is located in the Public/Private folders of the solution (as opposed to the Unreal starter code that's just loose in the main project folder). As for Editor stuff and assets, all of those created by me are located in the TestTaskAssets folder - everything else is the starter content and has not been subject to any changes.
+I've made sure to keep my own code separate from the FPP template code, so there's no need to scour that code for anything added/modified by me. The only changes there was making about 2 methods virtual in order to override them in children classes. The entirety of the C++ code created for this assignment is located in the Public/Private folders of the solution (as opposed to the Unreal starter code that's just loose in the main Majewski_TestTask project folder). As for Editor stuff and assets, all of those created by me are located in the TestTaskAssets folder - everything else is the starter content and has not been subject to any changes.
 
 ### Controls
 After picking up the gun, use numeric keys 1 to 5 to switch between damage types:
