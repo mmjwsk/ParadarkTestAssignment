@@ -48,3 +48,5 @@ After picking up the gun, use numeric keys 1 to 5 to switch between damage types
 - 3 - Water Damage - blue projectile
 - 4 - Healing Damage - green projectile
 - 5 - Poison Damage - toxic-green projectile
+
+The rest is as in the regular FPP project - WSAD to walk, space to jump, LMB to shoot
