@@ -13,6 +13,8 @@ UDamageSystemComponent::UDamageSystemComponent()
 
 void UDamageSystemComponent::BeginPlay()
 {
+	Super::BeginPlay();
+
 	DamageSubsystem = GetOwner()->GetGameInstance()->GetSubsystem<UDamageSubsystem>();
 	Health = DamageSubsystem->Settings->MaxHealth;
 	UpdateHealthVisualization();
