@@ -18,7 +18,7 @@ itself or by water.
 ## Solution Details
 
 ### Damage Types and ammunition
-In completing the assignment I focused the most on the extensibility aspect of it - with designers in mind. The system allows for easy and seamless addition of new damage types and new damage resistances that can fill a distinct gameplay niche. In order to demonstrate that, I added another damage type - Poison - following the design rules:
+In completing the assignment I focused the most on the extensibility aspect of it - with designers in mind. The system allows for easy and seamless addition of new damage types and new damage resistances that can fill a distinct gameplay niche. Each new Damage Type can operate independantly from others or have interactions with them - everything is defined in a matter of few clicks. In order to demonstrate that, I added another damage type - Poison - following the design rules:
 - After a short delay (onset) rapidly depletes health by small values (to differentiate from Fire effect that depletes health every second by larger values, without the initial delay)
 - Can be stopped by Healing projectile (similarly to how Water stops Fire effect)
 
