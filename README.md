@@ -1,4 +1,4 @@
-# Paradark Test Assignment
+# SampleTest Assignment
 
 ## Assignment description
 
