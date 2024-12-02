@@ -1,4 +1,4 @@
-# SampleTest Assignment
+# Sample Test Assignment
 
 ## Assignment description
 
